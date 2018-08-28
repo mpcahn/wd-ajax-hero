@@ -1,14 +1,13 @@
 (function () {
   'use strict';
 
-  var movies = [];
+  const movies = [];
 
+  // This mess of code is unprofessional and unacceptable
   const renderMovies = function () {
     $('#listings').empty();
-    console.log("render", movies)
     
     for (const movie of movies) {
-      console.log(movie)
       const $col = $('<div>').addClass('col s6');
       const $card = $('<div>').addClass('card hoverable');
       const $content = $('<div>').addClass('card-content center');
