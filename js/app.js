@@ -3,7 +3,7 @@
 
   const movies = [];
 
-  // This mess of code is unprofessional and unacceptable
+  // I think omdbapi.com changed the format of the JSON? I spent some time with NMuta and we still couldn't figure it out
   const renderMovies = function () {
     $('#listings').empty();
     
